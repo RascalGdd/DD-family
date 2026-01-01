@@ -32,8 +32,6 @@ const cities = [
     { name: "珠海", coords: [22.2707, 113.5767], visited: true, photos: [] },
 
     // 添加新城市
-    { name: "斯图加特", coords: [48.7758, 9.1829], visited: false, photos: ["path/to/stuttgart1.jpg"] },
-    { name: "苏黎世", coords: [47.3769, 8.5417], visited: false, photos: [] },
     { name: "南京", coords: [32.0603, 118.7969], visited: false, url: "/DD-family/cities/Nanjing" },
     { name: "六合（南京）", coords: [32.3463, 118.8482], visited: false, photos: ["path/to/liuhe1.jpg"] },
     { name: "香港", coords: [22.3193, 114.1694], visited: false, url: "/DD-family/cities/Hong Kong"},
@@ -44,13 +42,6 @@ const cities = [
     { name: "长沙", coords: [28.2278, 112.9389], visited: false, photos: [] },
     { name: "高邮", coords: [32.7852, 119.4432], visited: false, photos: ["path/to/gaoyou1.jpg"] },
 
-{ name: "西安", coords: [34.3416, 108.9398], visited: false, photos: ["path/to/xian1.jpg"] },
-{ name: "四子王旗（内蒙古）", coords: [41.7731, 111.7013], visited: false, photos: ["path/to/siziwangqi1.jpg"] },
-{ name: "法兰克福", coords: [50.1109, 8.6821], visited: false, photos: ["path/to/frankfurt1.jpg"] },
-{ name: "慕尼黑", coords: [48.1351, 11.5820], visited: false, photos: ["path/to/munich1.jpg"] },
-{ name: "摩洛哥", coords: [31.7917, -7.0926], visited: false, photos: ["path/to/morocco1.jpg"] },
-{ name: "巴登巴登", coords: [48.7606, 8.2398], visited: false, photos: ["path/to/badenbaden1.jpg"] },
-{ name: "费城", coords: [39.9526, -75.1652], visited: false, photos: ["path/to/philadelphia1.jpg"] },
 { name: "上海", coords: [31.2304, 121.4737], visited: false, photos: ["path/to/shanghai1.jpg"] },
 { name: "苏州", coords: [31.2989, 120.5853], visited: false, photos: ["path/to/suzhou1.jpg"] }
 ];
