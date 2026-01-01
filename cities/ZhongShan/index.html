@@ -2,28 +2,81 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title> 中山  </title>
+  <title>中山</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       margin: 20px;
     }
-    .gallery img {
-      width: 300px;
-      margin: 10px;
+
+    h2 {
+      margin-top: 40px;
+      margin-bottom: 10px;
+      border-left: 4px solid #4caf50;
+      padding-left: 10px;
+      color: #333;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    figure img {
+      width: 100%;
       border-radius: 8px;
+      display: block;
+    }
+
+    figcaption {
+      margin-top: 6px;
+      font-size: 14px;
+      color: #555;
+      line-height: 1.4;
     }
   </style>
 </head>
+
 <body>
 
   <h1>中山</h1>
 
+  <!-- Day 1 -->
+  <h2>2025.12.20</h2>
   <div class="gallery">
-    <img src="images/1.jpg" alt="崖口村，宫崎骏的夏天">
-    <img src="images/2.jpg" alt="龙泉家宴的脆皮乳鸽，小珩说一般般">
-    <img src="images/3.jpg" alt="芹菜煎饺，不错，爱吃">
-    <img src="images/4.jpg" alt="中山咖啡馆，水平不大行">
+
+    <figure>
+      <img src="images/1.jpg" alt="崖口村">
+      <figcaption>崖口村，宫崎骏的夏天</figcaption>
+    </figure>
+    <figure>
+      <img src="images/2.jpg" alt="龙泉家宴的脆皮乳鸽">
+      <figcaption>龙泉家宴的脆皮乳鸽，小珩说一般般</figcaption>
+    </figure>
+  </div>
+
+  <!-- Day 2 -->
+  <h2>Day 2 · 城市漫游</h2>
+  <div class="gallery">
+
+    <figure>
+      <img src="images/3.jpg" alt="芹菜煎饺">
+      <figcaption>芹菜煎饺，不错，爱吃</figcaption>
+    </figure>
+  </div>
+
+  <!-- Day 3 -->
+  <h2>Day 3 · 返程前</h2>
+  <div class="gallery">
+    <figure>
+      <img src="images/4.jpg" alt="中山咖啡馆">
+      <figcaption>中山咖啡馆，水平不大行</figcaption>
+    </figure>
   </div>
 
 </body>
