@@ -28,7 +28,7 @@ const cities = [
     { name: "开罗", coords: [30.0444, 31.2357], visited: false, photos: ["path/to/cairo1.jpg"] },
     { name: "新德里", coords: [28.6139, 77.2090], visited: false, photos: [] },
     { name: "布宜诺斯艾利斯", coords: [-34.6037, -58.3816], visited: false, photos: [] },
-    { name: "中山", coords: [22.5159, 113.3926], visited: true, url: "/DD-family/cities/Beijing/" },
+    { name: "中山", coords: [22.5159, 113.3926], visited: true, url: "/DD-family/cities/ZhongShan/" },
     { name: "珠海", coords: [22.2707, 113.5767], visited: true, url: "/DD-family/cities/Beijing/" },
 
     // 添加新城市
