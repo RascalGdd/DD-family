@@ -1,5 +1,14 @@
-// 初始化地图
-const map = L.map('map').setView([20.0, 0.0], 2); // 初始视角：世界地图中心
+// // 初始化地图
+// const map = L.map('map').setView([20.0, 0.0], 2); // 初始视角：世界地图中心
+
+const map = L.map('map', {
+  scrollWheelZoom: true,
+  wheelDebounceTime: 80,     // 默认 40，调大可减少频繁触发
+  wheelPxPerZoomLevel: 120,  // 默认 60，调大=滚轮更“钝”，缩放次数减少
+  zoomSnap: 1,               // 保持整数缩放级别（减少非必要重算）
+  zoomDelta: 1
+}).setView([20.0, 0.0], 2);
+
 
 // 添加基础地图层
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
