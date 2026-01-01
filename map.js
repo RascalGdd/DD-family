@@ -28,11 +28,11 @@ const cities = [
     { name: "开罗", coords: [30.0444, 31.2357], visited: false, photos: ["path/to/cairo1.jpg"] },
     { name: "新德里", coords: [28.6139, 77.2090], visited: false, photos: [] },
     { name: "布宜诺斯艾利斯", coords: [-34.6037, -58.3816], visited: false, photos: [] },
-    { name: "中山", coords: [22.5159, 113.3926], visited: true, url: "/DD-MEIMEI/cities/ZhongShan/index.html" },
-    { name: "珠海", coords: [22.2707, 113.5767], visited: true, url: "/DD-MEIMEI/cities/ZhuHai/index.html" },
+    { name: "中山", coords: [22.5159, 113.3926], visited: true, url: "cities/ZhongShan/index.html" },
+    { name: "珠海", coords: [22.2707, 113.5767], visited: true, url: "cities/ZhuHai/index.html" },
 
     // 添加新城市
-    { name: "南京", coords: [32.0603, 118.7969], visited: false, url: "/DD-MEIMEI/cities/Nanjing" },
+    { name: "南京", coords: [32.0603, 118.7969], visited: false, url: "cities/Nanjing" },
     { name: "六合（南京）", coords: [32.3463, 118.8482], visited: false, photos: ["path/to/liuhe1.jpg"] },
     { name: "香港", coords: [22.3193, 114.1694], visited: false, url: "/DD-MEIMEI/cities/Hong Kong"},
     { name: "长春", coords: [43.8171, 125.3235], visited: false, photos: ["path/to/changchun1.jpg"] },
