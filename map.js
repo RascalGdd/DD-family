@@ -42,8 +42,9 @@ const cities = [
     { name: "长沙", coords: [28.2278, 112.9389], visited: false, photos: [] },
     { name: "高邮", coords: [32.7852, 119.4432], visited: false, photos: ["path/to/gaoyou1.jpg"] },
 
-{ name: "上海", coords: [31.2304, 121.4737], visited: false, photos: ["path/to/shanghai1.jpg"] },
-{ name: "苏州", coords: [31.2989, 120.5853], visited: false, photos: ["path/to/suzhou1.jpg"] }
+{ name: "上海", coords: [31.2304, 121.4737], visited: true, url: "cities/ShangHai/index.html" },
+{ name: "苏州", coords: [31.2989, 120.5853], visited: false, photos: ["path/to/suzhou1.jpg"] },
+{ name: "嘉兴", coords: [30.7474, 120.7555], visited: true, url: "cities/JiaXing/index.html" },
 ];
 
 // 添加所有城市到地图
