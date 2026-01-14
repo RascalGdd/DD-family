@@ -45,6 +45,8 @@ const cities = [
 { name: "上海", coords: [31.2304, 121.4737], visited: true, url: "cities/ShangHai/index.html" },
 { name: "苏州", coords: [31.2989, 120.5853], visited: false, photos: ["path/to/suzhou1.jpg"] },
 { name: "嘉兴", coords: [30.7474, 120.7555], visited: true, url: "cities/JiaXing/index.html" },
+{ name: "瓦肆 est（上海）", coords: [31.1958, 121.4504], visited: true, url: "cities/VAS-est/index.html" 
+},
 ];
 
 // 添加所有城市到地图
