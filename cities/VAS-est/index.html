@@ -34,18 +34,17 @@
       margin: 0;
     }
 
-    figure img,
-    figure video {
+    figure img, video {
       width: 100%;
       border-radius: 8px;
       display: block;
     }
 
-    /* 图片7 大图占位 */
-    .img-large {
-      grid-column: span 2;
-      grid-row: span 2;
-      object-fit: cover;
+    figcaption {
+      margin-top: 6px;
+      font-size: 14px;
+      color: #555;
+      line-height: 1.4;
     }
   </style>
 </head>
@@ -54,6 +53,7 @@
 
   <h1>1.09 Wolf Alice!</h1>
 
+  <!-- 图片块 -->
   <h2>Photos</h2>
   <div class="gallery">
 
@@ -62,10 +62,11 @@
     <figure><img src="images/3.jpg"></figure>
     <figure><img src="images/5.jpg"></figure>
     <figure><img src="images/6.jpg"></figure>
-    <figure class="img-large"><img src="images/7.jpg"></figure>
+    <figure><img src="images/7.jpg"></figure>
 
   </div>
 
+  <!-- 视频块 -->
   <h2>Videos</h2>
   <div class="gallery">
 
