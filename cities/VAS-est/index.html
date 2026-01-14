@@ -24,27 +24,47 @@
       font-size: 18px;
     }
 
-    .gallery {
+    .gallery-photos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .gallery-photos figure {
+      margin: 0;
+      flex: 0 0 auto;
+      display: flex;
+      align-items: center;
+    }
+
+    .pic-normal img {
+      height: 220px;
+      width: auto;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .pic-big img {
+      height: calc(220px * 1.0);
+      width: auto;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .gallery-videos {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
       gap: 16px;
     }
 
-    figure {
+    .gallery-videos figure {
       margin: 0;
     }
 
-    figure img, video {
+    .gallery-videos video {
       width: 100%;
       border-radius: 8px;
       display: block;
-    }
-
-    figcaption {
-      margin-top: 6px;
-      font-size: 14px;
-      color: #555;
-      line-height: 1.4;
     }
   </style>
 </head>
@@ -53,22 +73,20 @@
 
   <h1>1.09 Wolf Alice!</h1>
 
-  <!-- 图片块 -->
   <h2>Photos</h2>
-  <div class="gallery">
+  <div class="gallery-photos">
 
-    <figure><img src="images/1.jpg"></figure>
-    <figure><img src="images/2.jpg"></figure>
-    <figure><img src="images/3.jpg"></figure>
-    <figure><img src="images/5.jpg"></figure>
-    <figure><img src="images/6.jpg"></figure>
-    <figure><img src="images/7.jpg"></figure>
+    <figure class="pic-normal"><img src="images/1.jpg"></figure>
+    <figure class="pic-normal"><img src="images/2.jpg"></figure>
+    <figure class="pic-normal"><img src="images/3.jpg"></figure>
+    <figure class="pic-normal"><img src="images/5.jpg"></figure>
+    <figure class="pic-normal"><img src="images/6.jpg"></figure>
+    <figure class="pic-big"><img src="images/7.jpg"></figure>
 
   </div>
 
-  <!-- 视频块 -->
   <h2>Videos</h2>
-  <div class="gallery">
+  <div class="gallery-videos">
 
     <figure><video controls preload="metadata"><source src="images/v1.mp4" type="video/mp4"></video></figure>
     <figure><video controls preload="metadata"><source src="images/v2.mp4" type="video/mp4"></video></figure>
